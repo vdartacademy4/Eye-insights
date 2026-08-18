@@ -1,0 +1,33 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Database
+*.db
+*.sqlite3
+
+# Generated runtime data
+/reports/*.pdf
+/screenshots/**
+/logs/*.log
+
+# Keep folder placeholders
+!reports/.gitkeep
+!screenshots/.gitkeep
+!logs/.gitkeep
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Models cache (mediapipe downloads)
+/models/*
+!models/.gitkeep
